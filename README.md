@@ -10,3 +10,5 @@ fc-cache -f -v
 documentserver-generate-allfonts.sh
 ```
 刷新浏览器缓存，重新进入onlyoffice编辑器，在字体列表中应该能看到字体的中文名了。
+
+*** 注意 *** ：建议不要删除容器里原来ｆｏｎｔｓ目录里的字体，可能会出现方框问题。
