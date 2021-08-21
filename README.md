@@ -19,7 +19,10 @@ rm -rf *
 `
  /usr/bin/documentserver-generate-allfonts.sh
 `
+<br>
 将浏览器缓存清空，即可正常使用。<br>
+放效果图：
+<img src=https://github.com/funggtopp/onlyoffice-chinese-fonts/raw/master/onlyoffice_chinesefonts.jpg></img>
 
 ## for onlyoffice 5.X
 将字体文件单独下载到fonts目录。在fonts目录的上一目录中执行如下命令：
