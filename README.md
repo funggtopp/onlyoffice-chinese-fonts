@@ -1,8 +1,11 @@
 # onlyoffice-chinese-fonts
-旨在解决onlyoffice-document-server中的中文字体名称显示问题<br>
+旨在解决在docker中运行的onlyoffice-document-server中文字体名称显示问题<br>
 
 ## for onlyoffice 6.3.X
-字体比较完美。已全部上传完毕。<br>
+字体完美。已全部上传完毕。<br>
+6.X的解决与5.X的解决还是有些差别的。<br>
+为保证完美效果，请将6.X版本的字体全部下载并导入容器。<br>
+单字体使用也是可以的！！！
 先进入docker容器。<br>
 
 ```
@@ -21,7 +24,7 @@ rm -rf *
 `
 <br>
 将浏览器缓存清空，即可正常使用。<br>
-最终效果图：
+最终效果图：<br>
 <img src=https://github.com/funggtopp/onlyoffice-chinese-fonts/raw/master/onlyoffice_chinesefonts.jpg width=60%></img>
 
 ## for onlyoffice 5.X
@@ -36,4 +39,4 @@ documentserver-generate-allfonts.sh
 ```
 刷新浏览器缓存，重新进入onlyoffice编辑器，在字体列表中应该能看到字体的中文名了。
 
-*** 注意 *** ：建议不要删除容器里原来ｆｏｎｔｓ目录里的字体，可能会出现方框问题。
+*** 注意 *** ：建议不要删除容器里原来fonts目录里的字体，可能会出现方框问题。
