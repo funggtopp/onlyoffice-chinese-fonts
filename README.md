@@ -1,6 +1,6 @@
 # onlyoffice-chinese-fonts
 旨在解决在docker中运行的onlyoffice-document-server中文字体名称显示问题<br>
-
+<br><br>
 ## for onlyoffice 6.3.X
 字体完美。已全部上传完毕。<br>
 6.X的解决与5.X的解决还是有些差别的。<br>
@@ -27,6 +27,7 @@ rm -rf *
 最终效果图：<br>
 <img src=https://github.com/funggtopp/onlyoffice-chinese-fonts/raw/master/onlyoffice_chinesefonts.jpg width=60%></img>
 
+<br><br>
 ## for onlyoffice 5.X
 将字体文件单独下载到fonts目录。在fonts目录的上一目录中执行如下命令：
 ```
