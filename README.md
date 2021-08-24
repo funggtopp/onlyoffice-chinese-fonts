@@ -16,8 +16,8 @@ rm -rf *
 cd /var/www/onlyoffice/documentserver/core-fonts/
 rm -rf *
 ```
-将所有的原来字体删除。<br>
-再将所有字体全部下载到容器的`/usr/share/fonts`目录下。<br>
+将原来字体删除。<br>
+再将字体全部下载到容器的`/usr/share/fonts`目录下。<br>
 在容器内执行<br>
 `
  /usr/bin/documentserver-generate-allfonts.sh
@@ -27,6 +27,14 @@ rm -rf *
 最终效果图：<br>
 <img src=https://github.com/funggtopp/onlyoffice-chinese-fonts/raw/master/onlyoffice_chinesefonts.jpg width=60%></img>
 
+<br><br>
+## mini_fonts精简版本
+原版字体文件略大，平均每个在15M左右。国标字体略小。<br>
+宋黑仿楷四大常用字体都做了相应压缩，包含了常用汉字及字符。<br>
+onlyoffice缺省字体Calibri使用等线做了伪装。<br>
+如果有部分字符不能显示或方框，切换成雅黑，雅黑字没有精简。<br>
+经实验可以在一定程度上减少编辑网页首次加载时间。<br>
+如果带宽足够就没有必要了。
 <br><br>
 ## for onlyoffice 5.X
 将字体文件单独下载到fonts目录。在fonts目录的上一目录中执行如下命令：
