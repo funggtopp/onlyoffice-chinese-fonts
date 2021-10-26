@@ -8,7 +8,7 @@
 
 单字体使用也是可以的！！！<br>
 如使用命令：<br>
-docker cp simfang.ttf oo6:/usr/share/fonts<br>
+`docker cp simfang.ttf oo6:/usr/share/fonts`<br>
 导入单个字体到容器。<br>
 先进入docker容器。<br>
 
