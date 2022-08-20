@@ -1,6 +1,7 @@
 # onlyoffice-chinese-fonts
 旨在解决在docker中运行的onlyoffice-document-server中文字体名称显示问题<br>
 <br><br>
+<b>特别提醒：<b>推荐使用mini_fonts。文件夹下有两个黑体文件，需要同时使用所有字体才能正常显示。因为windows不区分大小写，因此使用微软系统时需要特别注意。<br><br>
 ## for onlyoffice 6.3.X
 字体完美。已全部上传完毕。<br>
 6.X的解决与5.X的解决还是有些差别的。<br>
