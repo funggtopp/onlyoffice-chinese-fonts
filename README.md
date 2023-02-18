@@ -6,7 +6,7 @@
 ## for onlyoffice 7.3.x
 本人onlyoffice镜像 <code>funggtopp/docker-onlyoffice-ds:7.3.2.8</code> 。字体支持完美。<br>
 可参考其他版本的方法导入任意字体，字体文件不需要做单独修改，调用环境为中文的情况下，字体名显示为中文。<br>
-镜像已经集成常用字体。
+1.镜像已经集成常用字体；2.JWT默认关闭，开启请将JWT_ENABLED设置为true。
 ## for onlyoffice 7.X
 为保证完美效果，需要将mini_fonts目录下字体全部导入容器。<br>
 字体删除、重建及缓存清空与6.3.x版本相同。<br>
