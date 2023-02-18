@@ -3,7 +3,7 @@
 
 <br><br>
 <b>强烈推荐：</b>推荐使用本人onlyoffice镜像 <code>funggtopp/docker-onlyoffice-ds</code> 。字体支持完美。<br><br>
-<b>特别提醒：</b>推荐使用mini_fonts。它能较好地支持7.X版本。文件夹下有两个黑体文件，需要同时使用；只有这样才能使所有字体正常显示。因为windows不区分大小写，因此使用微软系统进行字体处理时需要特别注意。<br><br>
+<b>特别提醒：</b>推荐使用mini_fonts。它能较好地支持7.X版本。文件夹下有两个黑体文件，需要同时使用；只有这样才能使所有字体正常显示。因为windows不区分大小写，因此使用微软系统进行字体处理时需要特别注意。新的7.3版本，可以将黑体中tsimhei.TTF删除。<br><br>
 ## for onlyoffice 7.3.x
 本人onlyoffice镜像 <code>funggtopp/docker-onlyoffice-ds:7.3.2.8</code> 。字体支持完美。<br>
 可参考6.3.X的方法导入任意字体，字体文件不需要做单独修改，调用环境为中文的情况下，字体名显示为中文。<br>
