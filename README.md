@@ -7,7 +7,7 @@
 ## for onlyoffice 7.4.x
 本人onlyoffice镜像 <code>funggtopp/docker-onlyoffice-ds:7.4.1.36</code> 。字体支持完美。<br>
 可参考6.3.X的方法导入任意字体，字体文件不需要做单独修改，调用环境为中文的情况下，字体名显示为中文。<br>
-1.镜像已经集成常用字体；2.将20限制解除至199（再大反正也没用）；3.移动端可用。
+1.镜像已经集成常用字体；2.将20限制解除至199（再大反正也没用）
 ## for onlyoffice 7.3.x
 本人onlyoffice镜像 <code>funggtopp/docker-onlyoffice-ds:7.3.2.8</code> 。字体支持完美。<br>
 可参考6.3.X的方法导入任意字体，字体文件不需要做单独修改，调用环境为中文的情况下，字体名显示为中文。<br>
