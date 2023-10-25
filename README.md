@@ -71,7 +71,7 @@ documentserver-generate-allfonts.sh
 <br><br><br>
 ## 字号问题
 中文还是习惯小初、小四之类的。<br>
-*新版本的DocumentServer已经不需要以下操作。<br>
+*新版本的DocumentServer已经不需要以下操作。*<br>
 将<code>/var/www/onlyoffice/documentserver/web-apps/apps/documenteditor/main/</code>目录下的app.js做修改即可。<br>
 注意：一共有6个app.js文件，我只修改了文档编辑器的电脑版本。其他如电子表格、幻灯片及移动版本没有修改。因为基本用不到。
 <br>
