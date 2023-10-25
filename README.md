@@ -71,6 +71,7 @@ documentserver-generate-allfonts.sh
 <br><br><br>
 ## 字号问题
 中文还是习惯小初、小四之类的。<br>
+<li>新版本的DocumentServer已经不需要以下操作。</li><br>
 将<br>
 /var/www/onlyoffice/documentserver/web-apps/apps/documenteditor/main/<br>
 目录下的app.js做修改即可。<br>
