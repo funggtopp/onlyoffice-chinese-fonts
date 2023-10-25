@@ -71,16 +71,16 @@ documentserver-generate-allfonts.sh
 <br><br><br>
 ## 字号问题
 中文还是习惯小初、小四之类的。<br>
-<li>新版本的DocumentServer已经不需要以下操作。</li><br>
-将<br>
-/var/www/onlyoffice/documentserver/web-apps/apps/documenteditor/main/<br>
-目录下的app.js做修改即可。<br>
+新版本的DocumentServer已经不需要以下操作。<br>
+将<code>/var/www/onlyoffice/documentserver/web-apps/apps/documenteditor/main/</code>目录下的app.js做修改即可。<br>
 注意：一共有6个app.js文件，我只修改了文档编辑器的电脑版本。其他如电子表格、幻灯片及移动版本没有修改。因为基本用不到。
 <br>
 app.js需要从容器拷贝出来后修改，直接修改未必会成功。<br>
 在app.js中查找`{value:8,displayValue:"8"}`字符串，将相应字符串替换为:<br>
+
 ```
 {value:42,displayValue:"初号"},{value:36,displayValue:"小初"},{value:26,displayValue:"一号"},{value:24,displayValue:"小一"},{value:22,displayValue:"二号"},{value:18,displayValue:"小二"},{value:16,displayValue:"三号"},{value:15,displayValue:"小三"},{value:14,displayValue:"四号"},{value:12,displayValue:"小四"},{value:10.5,displayValue:"五号"},{value:9,displayValue:"小五"},{value:7.5,displayValue:"六号"},{value:6.5,displayValue:"小六"},{value:5.5,displayValue:"七号"},{value:5,displayValue:"八号"},
 ```
+
 <br>
 建议保留后面的value:48等值。
